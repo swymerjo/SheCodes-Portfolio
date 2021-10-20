@@ -60,6 +60,7 @@ button {
 .about-me-description {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 5%;
 }
 .about-1,
 .about-2 {
