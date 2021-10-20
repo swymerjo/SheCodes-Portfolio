@@ -1,0 +1,68 @@
+:root {
+  --background-text: wheat;
+}
+
+body {
+  font-family: "Azeret Mono", monospace;
+  line-height: 15pt;
+  max-width: 800px;
+  margin-left: 18%;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+}
+a:hover {
+  text-decoration: underline;
+}
+button {
+  border-radius: 5px;
+  padding: 10px 8px;
+  font-family: "Azeret Mono", monospace;
+  font-size: 12pt;
+  border: solid 2px silver;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+#about-link {
+  background: #ef5f9a;
+}
+#projects-link {
+  background: #6fd9e3;
+}
+#contact-link {
+  background: #fdd14f;
+}
+.top {
+  margin-top: 15%;
+}
+
+.top-links {
+  display: flex;
+  justify-content: center;
+}
+
+.top-links button {
+  margin: 20px;
+}
+.about-me-description {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-1,
+.about-2 {
+  background: var(--background-text);
+  padding: 6px;
+  border-radius: 4px;
+  margin: 6px;
+}
