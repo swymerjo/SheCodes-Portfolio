@@ -1,5 +1,7 @@
 :root {
   --background-text: wheat;
+  --primary-color: #ef5f9a;
+  --secondary-color: #6fd9e3;
 }
 
 body {
@@ -35,10 +37,10 @@ button {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 #about-link {
-  background: #ef5f9a;
+  background: var(--primary-color);
 }
 #projects-link {
-  background: #6fd9e3;
+  background: var(--secondary-color);
 }
 #contact-link {
   background: #fdd14f;
