@@ -49,9 +49,6 @@ img {
   background: var(--primary-color);
   border-radius: 4px;
 }
-#middle-section {
-  padding-top: 5%;
-}
 
 .top-links {
   display: flex;
