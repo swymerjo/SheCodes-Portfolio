@@ -1,43 +1,29 @@
 :root {
-  --background-text: wheat;
+  --background-text: rgb(236, 238, 228);
   --primary-color: #ef5f9a;
-  --secondary-color: #6fd9e3;
+  --secondary-color: hsl(185, 67%, 66%);
+  --third-color: #fdd14f;
+  --box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  font-family: "Azeret Mono", monospace;
-  line-height: 15pt;
-  max-width: 800px;
-  margin-left: 18%;
-}
 h1,
 h2,
 h3 {
-  text-align: center;
+  margin: 0;
 }
 
-p {
-  text-align: center;
-}
-a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  text-align: center;
-}
-a:hover {
-  text-decoration: underline;
-}
 button {
-  border-radius: 5px;
   padding: 10px 8px;
-  font-family: "Azeret Mono", monospace;
   font-size: 12pt;
   border: solid 2px silver;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--box-shadow);
 }
-span p {
-  text-align: left;
+button:hover {
+  text-decoration: underline;
+  color: white;
+}
+img {
+  background: var(--background-text);
 }
 #about-link {
   background: var(--primary-color);
@@ -48,8 +34,20 @@ span p {
 #contact-link {
   background: #fdd14f;
 }
-.top {
-  margin-top: 15%;
+#weather-app-button {
+  background: var(--third-color);
+  border-radius: 4px;
+}
+#seaglass-button {
+  background: var(--secondary-color);
+  border-radius: 4px;
+}
+#bateman-button {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+#middle-section {
+  padding-top: 5%;
 }
 
 .top-links {
@@ -59,16 +57,6 @@ span p {
 
 .top-links button {
   margin: 20px;
-}
-.about-me-description {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 5%;
-}
-.about-1,
-.about-2 {
-  background: var(--background-text);
-  padding: 6px;
-  border-radius: 4px;
-  margin: 6px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
